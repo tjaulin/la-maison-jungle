@@ -10,3 +10,11 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+
+/**
+ * 
+ * Je suis rendu ici 
+ * https://openclassrooms.com/fr/courses/7008001-debutez-avec-react/7135822-reutilisez-vos-composants-avec-les-props
+ */
