@@ -1,11 +1,20 @@
 .lmj-cart {
     color: white;
     background-color: #31b572;
-    padding: 32px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 200px;
+    width: 250px;
+}
+
+.lmj-cart ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
 }
 
 .lmj-cart-add-button {
@@ -31,4 +40,19 @@
 
 .lmj-cart-closed>button {
     color: black;
+}
+
+.btn-delete-cart {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete-cart.cross {
+    padding: 0;
+    border-radius: 0px;
+    background-color: #31b572;
+    color: red;
+    text-align: end;
 }

@@ -1,5 +1,6 @@
 .lmj-shopping-list {
     width: 100%;
+    user-select: none;
 }
 
 .lmj-plant-list {
@@ -8,4 +9,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }

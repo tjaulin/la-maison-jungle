@@ -1,11 +1,8 @@
 import "../styles/Categories.css"
 import { plantList } from "../datas/plantList";
-import { useState } from 'react'
 
 function Categories({categoryPlant, setCategoryPlant}) {
     // const [categoryPlant, setCategoryPlant] = useState('default');
-    console.log('categoryPlant :');
-    console.log(categoryPlant);
 
     const categories = plantList.reduce(
 		(acc, plant) =>

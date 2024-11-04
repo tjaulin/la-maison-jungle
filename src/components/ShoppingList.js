@@ -12,11 +12,11 @@ import Categories from "./Categories"
 // ]
 
 function ShoppingList({ cart, updateCart, categoryPlant, setCategoryPlant }) {
-	const categories = plantList.reduce(
-		(acc, plant) =>
-			acc.includes(plant.category) ? acc : acc.concat(plant.category),
-		[]
-	)
+	// const categories = plantList.reduce(
+	// 	(acc, plant) =>
+	// 		acc.includes(plant.category) ? acc : acc.concat(plant.category),
+	// 	[]
+	// )
 
 
     const filterPlant = plantList.filter(

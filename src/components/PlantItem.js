@@ -29,11 +29,11 @@ function PlantItem({name, cover, id, light, water, price}) {
 }
 
 function handleClick(plantName) {
-    alert(`Vous voulez acheter 1 ${plantName} ? Très bon choix 🌱✨`)
+    // alert(`Vous voulez acheter 1 ${plantName} ? Très bon choix 🌱✨`)
 }
 
 function handleClicke(e) {
-    console.log('✨ Ceci est mon event :', e)
+    // console.log('✨ Ceci est mon event :', e)
 }
 
 export default PlantItem

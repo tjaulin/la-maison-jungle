@@ -6,13 +6,22 @@
 }
 
 .lmj-plant-item {
-    margin: 10px;
+    /* margin: 10px; */
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     text-transform: capitalize;
     position: relative;
+}
+
+.lmj-plant-item+button {
+    border: none;
+    background: #31b572;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .lmj-plant-item-price {

@@ -34,11 +34,11 @@ function CareScale({scaleValue, careType}) {
 }
 
 function scaleTypeAndValue(careType, scaleValue) {
-    return alert(
-        `Cette plante requiert ${quantityLabel[scaleValue]} ${
-            careType === 'light' ? 'de lumière' : "d'arrosage"
-        }`
-    );
+    // return alert(
+    //     `Cette plante requiert ${quantityLabel[scaleValue]} ${
+    //         careType === 'light' ? 'de lumière' : "d'arrosage"
+    //     }`
+    // );
 }
 
 export default CareScale
